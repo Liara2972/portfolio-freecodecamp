@@ -1,0 +1,101 @@
+body {
+  background-color: black;
+}
+#playing-cards {
+  background-color: rgb(199, 173, 199);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 20px;
+  border: 1px solid rgb(179, 118, 118);
+  margin: 10% auto;
+  width: 80%;
+  height: auto;
+}
+
+.card {
+  background-color: white;
+  width:285px;
+  height: 375px;
+  display:flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px gray;
+  
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  
+  /*border: 1px solid black;*/
+  margin: 3%;
+  align-items: stretch;
+  height: 96%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  
+ 
+}
+p {
+  margin: 0;
+   }
+
+
+  
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  
+  font-weight: bold;
+  font-size: 90px
+  
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  /*justify-content: flex-end;*/
+  
+  /*border: 1px solid black;*/
+  margin: 3%;
+  align-items: stretch;
+  height: 96%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  transform: rotate(180deg);
+}
+
+.three {
+  color: red
+}
+
+.haut, .bas {
+  display:flex;
+  flex-wrap: wrap;
+  /*border: 1px solid black;*/
+  gap: 20px;
+}
+
+.bas {
+  transform: rotate(180deg);
+}
+
+.five {
+  color: red
+  }
+
+.milieu {
+  display: flex;
+  justify-content: center
+}
